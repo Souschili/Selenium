@@ -37,6 +37,9 @@ class Program
         var waith=new WebDriverWait(driver,TimeSpan.FromSeconds(5));
         await driver.Navigate().GoToUrlAsync("https://demoqa.com/text-box");
         await Task.Delay(1000);
+        var userName=waith.Until(x=> x.FindElement(By.Id("userName")));
+        userName.SendKeys("Orс salam");
+        await Task.Delay(1000);
         driver.Quit();
         #endregion
     }
