@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35919.96 d17.13
+VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selenium", "Selenium\Selenium.csproj", "{CA47A4F4-7543-4885-80AC-62505854F448}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bacis", "Bacis", "{70630162-4E85-4A4E-BA45-1C1E7E59795D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selenium_Form", "Selenium_Form\Selenium_Form.csproj", "{27810635-6BDD-4F64-8FEC-39888C1192F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +15,17 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CA47A4F4-7543-4885-80AC-62505854F448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CA47A4F4-7543-4885-80AC-62505854F448}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CA47A4F4-7543-4885-80AC-62505854F448}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CA47A4F4-7543-4885-80AC-62505854F448}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27810635-6BDD-4F64-8FEC-39888C1192F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27810635-6BDD-4F64-8FEC-39888C1192F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27810635-6BDD-4F64-8FEC-39888C1192F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27810635-6BDD-4F64-8FEC-39888C1192F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{70630162-4E85-4A4E-BA45-1C1E7E59795D} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{27810635-6BDD-4F64-8FEC-39888C1192F9} = {70630162-4E85-4A4E-BA45-1C1E7E59795D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {693014E0-D2C3-497B-B1FD-8884BCBDC0B9}
